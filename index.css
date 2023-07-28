@@ -335,8 +335,18 @@ button:focus {
     padding:6vh 4vw;
     font-weight:bold;}
 
-
+#skill2{
+   display:none;
+}
 @media (max-width: 1000px){
+#skill2{
+   display:block;
+}
+#skill1{
+   display:none;
+}
+
+    
     #rowall{margin-top:140px;}
     #logo{font-size:16px;}
   #about h1 {
