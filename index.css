@@ -313,8 +313,10 @@ button:focus {
 }
 
 @media (max-width: 1000px){
+    #work{margin-top:60px;}
     #logo{font-size:16px;}
   #about h1 {
+      margin-top:125px;
     font-size: 33px;
     word-wrap: break-word;
 }
