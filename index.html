@@ -278,26 +278,7 @@
     });
   }
 </script>
-    <script>
-        // Check window width on page load and resize
-        function checkWindowWidth() {
-            var windowWidth = window.innerWidth;
-            var tdWithClassAA = document.querySelector('td.rightImage');
 
-            if (windowWidth <= 1000 && tdWithClassAA) {
-                // Remove the td element with class "aa"
-                tdWithClassAA.remove();
-            }
-        }
-
-        // Check window width on page load
-        checkWindowWidth();
-
-        // Check window width on resize
-        window.addEventListener('resize', function () {
-            checkWindowWidth();
-        });
-    </script>
 </body>
 
 </html>
