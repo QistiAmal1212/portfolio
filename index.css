@@ -112,12 +112,13 @@ header table {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    text-align:left;
+    text-align:center;
     padding:0px 8%;
 }
 #about h1 {
     font-size:45px;
     word-wrap:break-word;
+     text-align:left;
 }
 #about table {
     width:70%;
