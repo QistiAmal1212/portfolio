@@ -392,10 +392,14 @@ btnn:hover:after {
 #skill{  width:100%;
     padding:6vh 4vw;
     font-weight:bold;}
-#skill{  width:100%;
+#skill1{  width:100%;
     padding:6vh 4vw;
     font-weight:bold;}
-
+#skill1 tbody, td, tfoot, th, thead, tr{border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    width: 10%;
+    height: 100px;}
 #skill2{
    display:none;
 }
