@@ -306,6 +306,10 @@ button:focus {
 }
 
 @media (max-width: 1000px){
+    #logo {
+    font-size:16px;
+
+}
     #photos {
     columns:1;
     column-gap:0%;
