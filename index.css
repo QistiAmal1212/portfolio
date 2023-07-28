@@ -33,7 +33,7 @@ body {
     100% {transform: rotate(360deg);}
 }
 header {
-    width:92vw;
+    width:100%;
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
