@@ -316,28 +316,27 @@ button:focus {
 
 
 
-
 .btnn {
- width: 5.5em;
- height: 2.3em;
- margin: 0.5em;
- background: black;
- color: white;
- border: none;
- border-radius: 0.625em;
- font-size: 15px;
- font-weight: bold;
- cursor: pointer;
- position: relative;
- z-index: 1;
- overflow: hidden;
+    width: 4.2em;
+    height: 2.1em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 13px !important;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
-butnn:hover {
+btnn:hover {
  color: black;
 }
 
-buttnn:after {
+btnn:after {
  content: "";
  background: white;
  position: absolute;
@@ -350,7 +349,7 @@ buttnn:after {
  transition: all 0.5s;
 }
 
-buttnn:hover:after {
+btnn:hover:after {
  transform: skewX(-45deg) scale(1, 1);
  -webkit-transition: all 0.5s;
  transition: all 0.5s;
