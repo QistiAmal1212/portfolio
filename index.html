@@ -330,6 +330,32 @@
     });
   }
 </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200
+        , })
+        AOS.init();
+        window.addEventListener('scroll', function() {
+            var element = document.getElementById('scrollAnimation');
+            var position = element.getBoundingClientRect();
+            var windowHeight = window.innerHeight;
+
+            // Calculate the scroll position when the element is at half height
+            var scrollPosition = position.top - (windowHeight / 2);
+
+            // Checking if the scroll position is in the viewport
+            if (scrollPosition < 0) {
+                element.style.opacity = '1';
+                element.setAttribute('data-aos', 'fade-up');
+                element.classList.add('aos-animate');
+            } else {
+                element.style.opacity = '0';
+                element.setAttribute('data-aos', '');
+                element.classList.remove('aos-animate');
+            }
+        });
 
 </body>
 
