@@ -318,8 +318,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: 2%;
-    margin-left: 2%;
+   
 }
 
 #rowall h1 {  
