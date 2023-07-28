@@ -58,7 +58,7 @@ $(document).ready(function(){
         var hash = this.hash;
         $('body,html').animate({
         scrollTop: $(hash).offset().top
-        }, 1800, function(){
+        }, 1000, function(){
         window.location.hash = hash;
        });
        } 
