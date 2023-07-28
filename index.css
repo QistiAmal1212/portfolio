@@ -321,6 +321,12 @@ button:focus {
     margin-right: 2%;
     margin-left: 2%;
 }
+
+#rowall h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:6%;
+}
 @media (max-width: 1000px){
     #rowall{margin-top:140px;}
     #logo{font-size:16px;}
