@@ -322,7 +322,7 @@ button:focus {
     margin-left: 2%;
 }
 @media (max-width: 1000px){
-    #rowall{margin-top:60px;}
+    #rowall{margin-top:140px;}
     #logo{font-size:16px;}
   #about h1 {
       margin-top:175px;
