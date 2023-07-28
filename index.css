@@ -505,7 +505,8 @@ text-align: left;
     border-color: inherit;
     border-style: solid;
     border-width: 0;
+            padding-bottom: 15px;
     width: 118px;
 }
 
-
+}
