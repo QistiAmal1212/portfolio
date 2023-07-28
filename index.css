@@ -320,8 +320,7 @@ button:focus {
     width: 4.2em;
     height: 2.1em;
     margin: 0.5em;
-    background: black;
-    color: white;
+  background: rgb(255, 44, 90);
     border: none;
     border-radius: 0.625em;
     font-size: 13px !important;
@@ -505,7 +504,7 @@ text-align: left;
     border-color: inherit;
     border-style: solid;
     border-width: 0;
-            padding-bottom: 15px;
+            padding-bottom: 19px;
     width: 118px;
 }
 
