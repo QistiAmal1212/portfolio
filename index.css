@@ -306,9 +306,9 @@ button:focus {
 }
 
 @media (max-width: 1000px){
-    #logo {
-    font-size:16px;
-
+  #about h1 {
+    font-size: 33px;
+    word-wrap: break-word;
 }
     #photos {
     columns:1;
