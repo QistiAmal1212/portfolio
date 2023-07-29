@@ -502,7 +502,7 @@ text-align: left;
     header {
         width:100%;
         background:#fff;
-        padding:0vh 2vw;
+        padding:6vh 4vw !important;
         position:absolute;
          
     }
