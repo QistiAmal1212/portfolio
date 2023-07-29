@@ -94,7 +94,7 @@ $(document).ready(function() {
   $(document).ready(function() {
     $(".btnn").click(function() {
       $(".nxt").fadeIn();
-      $(".btnn").fadeOut();
+      $(".buang").fadeOut();
     });
   });
 });
