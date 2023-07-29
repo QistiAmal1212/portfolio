@@ -423,8 +423,10 @@ btnn:hover:after {
     #skill{margin-top:150px;}
     #logo{font-size:16px;}
   #about h1 {
-      margin-top:175px;
-    font-size: 38px;
+     text-align: center;
+    margin-top: 375px;
+    font-size: 35px;
+    word-wrap: break-word;
     word-wrap: break-word;
 }
     #photos {
