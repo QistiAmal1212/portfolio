@@ -451,7 +451,7 @@ btnn:hover:after {
         text-align:center;
     }
     #about {
-        width:92% !important;
+        width:100% !important;
         height:75vh;
         padding-top:20vh !important;
 text-align: left;
@@ -500,7 +500,7 @@ text-align: left;
         width:33%;
     }
     header {
-        width:96vw;
+        width:100%;
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
@@ -513,6 +513,7 @@ text-align: left;
     }
     #navigation a {
         color:#000;
+        margin-left:0px;
     }
 
     #skill tbody, td, tfoot, th, thead, tr {
