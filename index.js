@@ -64,4 +64,18 @@ $(document).ready(function(){
        } 
       });
   });
-  
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Delay time in milliseconds (e.g., 3000ms = 3 seconds)
+    const delayTime = 2000
+
+    setTimeout(function() {
+      const typedText = new Typed('.animation1', {
+        strings: ['Coding is Where My Heart Plays, Creativity Unleashed Every Day.'],
+        typeSpeed: 40, // Speed of typing in milliseconds
+        loop: false, // Set to true if you want the animation to loop
+        showCursor: false, // Set to true to display the cursor while typing
+      });
+    }, delayTime);
+  });
