@@ -501,7 +501,7 @@ text-align: left;
     }
     header {
         width:100%;
-        background:#fff;
+        background:transparent;
         padding:6vh 4vw !important;
         position:absolute;
         z-index:2;
