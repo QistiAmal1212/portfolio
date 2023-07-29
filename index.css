@@ -526,3 +526,10 @@ text-align: left;
 }
 
 }
+
+
+@media (max-width: 400px){
+ #skill{margin-top:175px;}
+
+
+}
