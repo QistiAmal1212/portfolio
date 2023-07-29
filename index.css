@@ -424,7 +424,7 @@ btnn:hover:after {
     #logo{font-size:16px;}
   #about h1 {
      text-align: center;
-    margin-top: 350px;
+    margin-top: 300px;
     font-size: 35px;
     word-wrap: break-word;
     word-wrap: break-word;
@@ -529,7 +529,13 @@ text-align: left;
 
 
 @media (max-width: 400px){
- #skill{margin-top:175px;}
+ #about h1 {
+     text-align: center;
+    margin-top: 375px;
+    font-size: 35px;
+    word-wrap: break-word;
+    word-wrap: break-word;
+}
 
 
 }
