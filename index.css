@@ -403,6 +403,14 @@ btnn:hover:after {
 #skill2{
    display:none;
 }
+
+
+ .clr{
+     color:white;
+     }
+     .nxt{
+         display:none;
+         }
 @media (max-width: 1000px){
 #skill2{
    display:block;
