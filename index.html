@@ -47,10 +47,10 @@ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="ano
             <tr>
                 <td id="logo">MUHAMMAD QISTI AMALUDDIN BIN MOHD ROZAINI</td>
                 <td id="navigation">
-                    <a href="#work">work</a>
-                    <a href="#bio">about</a>
-                    <a href="">blog</a>
-                    <a href="#contact">contact</a>
+                   <a onclick="window.location.href = '#work';">work</a>
+    <a onclick="window.location.href = '#bio';">about</a>
+    <a href="blog.html">blog</a> <!-- This will navigate to "blog.html" when clicked -->
+    <a onclick="window.location.href = '#contact';">contact</a>
                 </td>
             </tr>
         </table>
@@ -486,25 +486,9 @@ function showHireMeAlert() {
       }
     }</script>
     <!-- Add this script to handle smooth scrolling for navigation links -->
-<script>
-  $(document).ready(function () {
-    $("#navigation a").on("click", function (event) {
-      if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-        $("html, body").animate(
-          {
-            scrollTop: $(hash).offset().top,
-          },
-          800, // Adjust the scrolling speed here
-          function () {
-            window.location.hash = hash;
-          }
-        );
-      }
-    });
-  });
-</script>
+<!-- Add this script to handle smooth scrolling for navigation links -->
+
+
 
 </body>
 
