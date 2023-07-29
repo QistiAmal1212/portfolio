@@ -513,7 +513,7 @@ text-align: left;
         color:#000;
     }
 
-    tbody, td, tfoot, th, thead, tr {
+    #skill tbody, td, tfoot, th, thead, tr {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
