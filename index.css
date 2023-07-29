@@ -424,7 +424,7 @@ btnn:hover:after {
     #logo{font-size:16px;}
   #about h1 {
      text-align: center;
-    margin-top: 375px;
+    margin-top: 350px;
     font-size: 35px;
     word-wrap: break-word;
     word-wrap: break-word;
@@ -504,6 +504,7 @@ text-align: left;
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
+         
     }
     #header table tr td {
         width:100%;
