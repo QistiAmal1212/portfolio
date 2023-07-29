@@ -34,7 +34,7 @@ body {
 }
 header {
     width:100%;
-    padding:1vh 4vw;
+    padding:1vh 4vw !important;
     position:fixed;
     font-weight:bold;
     background:transparent;
