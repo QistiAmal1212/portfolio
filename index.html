@@ -485,6 +485,27 @@ function showHireMeAlert() {
         });
       }
     }</script>
+    <!-- Add this script to handle smooth scrolling for navigation links -->
+<script>
+  $(document).ready(function () {
+    $("#navigation a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800, // Adjust the scrolling speed here
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+  });
+</script>
+
 </body>
 
 </html>
