@@ -67,16 +67,7 @@ $(document).ready(function() {
   });
 
   
-  function showHireMeAlert() {
-    Swal.fire({
-      title: '<span class="clr">Thank You!</span>',
-      html: '<span class="clr">Thank you for considering to hire me!</span>',
-      icon: 'success',
-      background: 'rgb(255, 44, 90)',
-      textColor: 'fff',
-      confirmButtonText: 'OK'
-    });
-  }
+  
 
   AOS.init({
     duration: 1200,
