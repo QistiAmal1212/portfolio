@@ -66,19 +66,7 @@ $(document).ready(function() {
     }
   });
 
-  document.addEventListener("DOMContentLoaded", function() {
-    const delayTime = 2000;
-
-    setTimeout(function() {
-      const typedText = new Typed('.animation1', {
-        strings: ['Coding is Where My Heart Plays, Creativity Unleashed Every Day.'],
-        typeSpeed: 40,
-        loop: false,
-        showCursor: false,
-      });
-    }, delayTime);
-  });
-
+  
   function showHireMeAlert() {
     Swal.fire({
       title: '<span class="clr">Thank You!</span>',
