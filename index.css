@@ -504,6 +504,7 @@ text-align: left;
         background:#fff;
         padding:6vh 4vw !important;
         position:absolute;
+        z-index:0;
          
     }
     #header table tr td {
