@@ -377,7 +377,7 @@ btnn:hover:after {
 #rowall h1 {  
   padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:210px;
+    width:300px;
 }
 
 #rowall{  width:100%;
@@ -386,7 +386,7 @@ btnn:hover:after {
 #skill h1 {  
   padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:55px;
+    width:80px;
 }
 
 #skill{  width:100%;
@@ -412,6 +412,17 @@ btnn:hover:after {
          display:none;
          }
 @media (max-width: 1000px){
+
+    #rowall h1 {  
+  padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:210px;
+}
+#skill h1 {  
+  padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:55px;
+}
 #skill2{
    display:block;
 }
