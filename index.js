@@ -1,3 +1,21 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.js"></script>
+     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.js"></script>
+     
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+
+
 var width = $(window).width(); 
 window.onscroll = function(){
 if ((width >= 1000)){
@@ -79,3 +97,48 @@ $(document).ready(function(){
       });
     }, delayTime);
   });
+
+
+  function showHireMeAlert() {
+    Swal.fire({
+      title: '<span class="clr">Thank You!</span>',
+      html: '<span class="clr">Thank you for considering to hire me!</span>',
+      icon: 'success',
+      background:'rgb(255, 44, 90)',
+      
+  textColor: 'fff',
+      confirmButtonText: 'OK'
+    });
+
+
+     AOS.init({
+            duration: 1200
+        , })
+        AOS.init();
+        window.addEventListener('scroll', function() {
+            var element = document.getElementById('scrollAnimation');
+            var position = element.getBoundingClientRect();
+            var windowHeight = window.innerHeight;
+
+            // Calculate the scroll position when the element is at half height
+            var scrollPosition = position.top - (windowHeight / 2);
+
+            // Checking if the scroll position is in the viewport
+            if (scrollPosition < 0) {
+                element.style.opacity = '1';
+                element.setAttribute('data-aos', 'fade-up');
+                element.classList.add('aos-animate');
+            } else {
+                element.style.opacity = '0';
+                element.setAttribute('data-aos', '');
+                element.classList.remove('aos-animate');
+            }
+        });
+
+
+  $(document).ready(function() {
+            $(".btnn").click(function() {
+                $(".nxt").fadeIn();
+                 $(".btnn").fadeOut();
+            });
+        });
