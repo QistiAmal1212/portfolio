@@ -586,13 +586,13 @@ text-align: left;
 #contact_m table tr td {
     width:50%;
 }
-#inner_div table{
+#inner_div2 table{
     width:100%;
 }
-#inner_div table tr td{
+#inner_div2 table tr td{
     font-weight:bold;
 }
-#inner_table tr td{
+#inner_table2 tr td{
     padding:10px 20px !important;
 }
 #contact_m form {
@@ -641,7 +641,11 @@ text-align: left;
     border-bottom:4px solid rgb(255, 44, 90);
     width:170px;
 }
-
+#address2 {
+    position:relative;
+    top:-25px;
+    left:30px;
+}
 
 }
 
