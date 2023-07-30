@@ -423,10 +423,28 @@ btnn:hover:after {
      .nxt{
          display:none;
          }
+.chide{
+display:none;
+    
+}
+.cshow{
 
+    display:block;
+}
 #contact_m{display:none;}
 @media (max-width: 1000px){
 
+.chide{
+display:block;
+    
+}
+.cshow{
+
+    display:none;
+}
+
+
+    
     #rowall h1 {  
   padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
