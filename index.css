@@ -429,6 +429,11 @@ display:none;
 }
 
 #contact_m{display:none;}
+
+   #bio p {
+       text-align:left;
+        font-size:22px;
+    }
 @media (max-width: 1000px){
 
 .chide{
@@ -536,9 +541,7 @@ text-align: left;
     #bio h1 {
         width:25%;
     }
-     #bio p {
-        font-size:22px;
-    }
+  
     #contact h1 {
         width:33%;
     }
