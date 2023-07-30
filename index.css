@@ -429,13 +429,13 @@ display:none;
 }
 .cshow{
 
-    display:block;
+    display:contents;
 }
 #contact_m{display:none;}
 @media (max-width: 1000px){
 
 .chide{
-display:block;
+display:contents;
     
 }
 .cshow{
