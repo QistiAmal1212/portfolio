@@ -436,6 +436,11 @@ display:none;
     }
 @media (max-width: 1000px){
 
+     #bio p {
+       text-align:left;
+        font-size:17px;
+    }
+
 .chide{
 display:contents;
     
