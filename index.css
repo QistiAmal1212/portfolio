@@ -555,20 +555,20 @@ text-align: left;
 
 
 
-    #contact-m {
+    #contact_m {
     width:100%;
     padding:6vh 4vw;
         display:block;
 }
-#contact-m h1 {
+#contact_m h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:10%;
 }
-#contact-m table {
+#contact_m table {
     width:100%;
 }
-#contact-m table tr td {
+#contact_m table tr td {
     width:50%;
 }
 #inner_div table{
