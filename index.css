@@ -536,6 +536,9 @@ text-align: left;
     #bio h1 {
         width:25%;
     }
+     #bio p {
+        font-size:22px;
+    }
     #contact h1 {
         width:33%;
     }
