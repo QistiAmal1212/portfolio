@@ -218,7 +218,7 @@ font-weight:bold;
     cursor: pointer;
 }
 #bio {
-    width:92vw;
+    width:100%;
     padding:6vh 4vw;
     font-weight:bold;
 }
