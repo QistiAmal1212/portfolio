@@ -423,6 +423,8 @@ btnn:hover:after {
      .nxt{
          display:none;
          }
+
+#contact_m{display:none;}
 @media (max-width: 1000px){
 
     #rowall h1 {  
@@ -500,9 +502,9 @@ text-align: left;
         box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
         cursor:pointer;
     }
-    #contact table tr td {
+    #contact {
         width:100%;
-        display:block;
+        display:none;
     }
     #inner_table tr td{
         padding:10px 0px !important;
@@ -547,6 +549,75 @@ text-align: left;
     border-width: 0;
             padding-bottom: 19px;
      width: 10%;
+}
+
+
+
+
+
+    #contact-m {
+    width:100%;
+    padding:6vh 4vw;
+        display:block;
+}
+#contact-m h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:10%;
+}
+#contact-m table {
+    width:100%;
+}
+#contact-m table tr td {
+    width:50%;
+}
+#inner_div table{
+    width:100%;
+}
+#inner_div table tr td{
+    font-weight:bold;
+}
+#inner_table tr td{
+    padding:10px 20px !important;
+}
+#contact_m form {
+    width:100%;
+}
+#contact_m form input {
+    width:96%;
+    margin:20px 1%;
+    background:transparent;
+    border:0px;
+    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    padding:8px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    transition:0.4s ease-in-out;
+    color:#000;
+    font-weight:bold;
+}
+#contact_m form textarea {
+    width:96%;
+    margin:20px 1%;
+    padding:8px 10px;
+    border:0px;
+    border-bottom:3px solid rgba(255, 44, 90,0.5);
+    padding:8px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    background:transparent;
+    resize:none;
+    transition:0.4s ease-in-out;
+    color:#000;
+    font-weight:bold;
+}
+#contact_m form input:focus {
+    outline:none;
+    border-bottom:3px solid rgba(255, 44, 90,1);
+}
+#contact_m form textarea:focus {
+    outline:none;
+    border-bottom:3px solid rgba(255, 44, 90,1);
 }
 
 }
