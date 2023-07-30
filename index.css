@@ -4,13 +4,13 @@ body {
     font-family: 'Poppins', sans-serif;
     padding:0px;
     margin:0px;
-    max-width:100d
+    max-width:100%;
     overflow-x:hidden;
     scroll-behavior: smooth;
 }
 #loading {
     width: 100vw;
-    height: 100vw;
+    height: 100%;
     position: fixed;
     background: white;
     z-index: 999;
@@ -30,10 +30,10 @@ body {
 }
 @keyframes rotate {
     0% {transform: rotate(0deg);}
-    100vw {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
 }
 header {
-    width:100vw;
+    width:100%;
     padding:1vh 4vw !important;
     position:fixed;
     font-weight:bold;
@@ -43,7 +43,7 @@ header {
     z-index:2;
 }
 header table {
-    width:100vw;
+    width:100%;
 }
 #logo {
     width:45%;
@@ -100,7 +100,7 @@ header table {
     border-bottom:2px solid #fff;
 }
 #top_part {
-    width:100vw;
+    width:100%;
     border:2vh solid #fff;
 }
 #top_part tr td{
@@ -164,7 +164,7 @@ header table {
     background:rgb(255, 44, 90);
 }
 #rightImage {
-    width:100vw;
+    width:100%;
     height:95vh;
     background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),
     url("atas2.jpeg") center center;
@@ -172,13 +172,13 @@ header table {
     background-repeat:no-repeat;
 }
 #work {
-    width:100vw;
+    width:100%;
     padding:6vh 4vw;
     font-weight:bold;
 }
 
 #experience{ 
-width:100vw;
+width:100%;
 padding:6vh 4vw;
 font-weight:bold;
 }
@@ -201,14 +201,14 @@ font-weight:bold;
     width:6%;
 }
 #photos {
-    width:100vw;
+    width:100%;
     columns:3;
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
 #photos img {
-    width:100vw;
+    width:100%;
     height:auto;
     margin:4.5% 0px;
     transition:0.4s ease-in-out;
@@ -237,13 +237,13 @@ font-weight:bold;
     width:130px;
 }
 #contact table {
-    width:100vw;
+    width:100%;
 }
 #contact table tr td {
     width:50%;
 }
 #inner_div table{
-    width:100vw;
+    width:100%;
 }
 #inner_div table tr td{
     font-weight:bold;
@@ -252,7 +252,7 @@ font-weight:bold;
     padding:10px 20px !important;
 }
 #contact form {
-    width:100vw;
+    width:100%;
 }
 #contact form input {
     width:96%;
@@ -296,7 +296,7 @@ font-weight:bold;
     left:30px;
 }
 #footer {
-    width:100vw;
+    width:100%;
     padding:10vh 0px;
     text-align:center;
     font-weight:bold;
@@ -392,7 +392,7 @@ btnn:hover:after {
     width:300px;
 }
 
-#rowall{  width:100vw;
+#rowall{  width:100%;
     padding:6vh 4vw;
     font-weight:bold;}
 #skill h1 {  
@@ -401,10 +401,10 @@ btnn:hover:after {
     width:80px;
 }
 
-#skill{  width:100vw;
+#skill{  width:100%;
     padding:6vh 4vw;
     font-weight:bold;}
-#skill1{  width:100vw;
+#skill1{  width:100%;
     padding:6vh 4vw;
     font-weight:bold;}
 #skill1 tbody, td, tfoot, th, thead, tr{border-color: inherit;
@@ -487,11 +487,11 @@ display:contents;
         border:0px;
     }
     #top_part tr td{
-        width:100vw;
+        width:100%;
         text-align:center;
     }
     #about {
-        width:100vw !important;
+        width:100% !important;
         height:75vh;
         padding-top:20vh !important;
 text-align: left;
@@ -499,7 +499,7 @@ text-align: left;
      
     }
     #about table {
-        width:100vw;
+        width:100%;
         margin-top:6vh;
     }
     #about table tr td {
@@ -518,7 +518,7 @@ text-align: left;
         cursor:pointer;
     }
     #contact {
-        width:100vw;
+        width:100%;
         display:none;
     }
     #inner_table tr td{
@@ -540,7 +540,7 @@ text-align: left;
         width:33%;
     }
     header {
-        width:100vw;
+        width:100%;
         background:transparent;
         padding:6vh 4vw !important;
         position:absolute;
@@ -548,7 +548,7 @@ text-align: left;
          
     }
     #header table tr td {
-        width:100vw;
+        width:100%;
         display:block;
         text-align:center;
         padding:10px 0px;
@@ -571,7 +571,7 @@ text-align: left;
 
 
     #contact_m {
-    width:100vw;
+    width:100%;
     padding:6vh 4vw;
         display:block;
 }
@@ -581,13 +581,13 @@ text-align: left;
     width:120px;
 }
 #contact_m table {
-    width:100vw;
+    width:100%;
 }
 #contact_m table tr td {
     width:50%;
 }
 #inner_div2 table{
-    width:100vw;
+    width:100%;
 }
 #inner_div2 table tr td{
     font-weight:bold;
@@ -596,7 +596,7 @@ text-align: left;
     padding:10px 20px !important;
 }
 #contact_m form {
-    width:100vw;
+    width:100%;
 }
 #contact_m form input {
     width:96%;
