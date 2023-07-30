@@ -427,10 +427,7 @@ btnn:hover:after {
 display:none;
     
 }
-.cshow{
 
-    display:contents;
-}
 #contact_m{display:none;}
 @media (max-width: 1000px){
 
